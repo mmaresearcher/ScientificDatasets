@@ -3,6 +3,9 @@ This repo is used to share the datasets' csv files associated with our Research 
 
 ## Topic Labeling Datasets
 
+### Verified Dataset
+
+
 ### Taxonomy Dataset
 To ensure extensive coverage across a wide range of scientific domains, a second dataset was developed based on Elsevier’s Digital Commons Three-Tiered Taxonomy of Academic Disciplines. This taxonomy provides a hierarchical classification of academic knowledge, spanning broad disciplines, intermediate subdisciplines, and specialized research fields.
 
@@ -20,7 +23,9 @@ Each dataset is constructed using a keyword-driven retrieval strategy, where rep
 To ensure data quality and consistency, filtering and normalization steps are applied. Only open-access journal articles and conference papers with both titles and abstracts are retained, and keyword relevance is enforced through matching in the title or abstract. Duplicate records are removed using DOI filtering, and publication dates and venue names are standardized. The final datasets include key metadata such as DOI, title, abstract, authors, venue, and publication date to support subsequent analysis.
 
 ### "Wireless Networks and Mobile Computing" (main dataset): 
-136,047 papers collected from 2010 to 2025 using 11 domain-specific keywords present in either the title or the abstract (wireless networks, WiFi, 5G, ad hoc networks, mobile computing, ubiquitous computing, edge computing, Internet of Things, smart devices, sensor networks).
+136,047 papers collected from 2010 to 2025 using 11 domain-specific keywords present in either the title or the abstract (wireless networks, WiFi, 5G, ad hoc networks, mobile computing, ubiquitous computing, edge computing, Internet of Things, smart devices, sensor networks). 
+[Wireless Networks and Mobile Computing Dataset](https://drive.google.com/file/d/1CJ5uvTjKqK2y8nJayiwag58dLPNv-ujv/view?usp=sharing) 
     
 ### Software Engineering (validation dataset):
 449,931 papers collected from 2010 to 2025 using 11 software engineering-related keywords present in the title or abstract (software engineering, software development, software design, software architecture, software testing, software maintenance, software verification, software validation, agile software development, DevOps, and software refactoring).
+Link to download this large Dataset: [Software Engineering Dataset](https://drive.google.com/file/d/1uPFI74JYkC_qi8KvYt0zdLCLzJkAgyIj/view?usp=sharing) 
