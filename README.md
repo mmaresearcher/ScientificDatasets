@@ -3,9 +3,12 @@ This repo is used to share the datasets' csv files associated with our Research 
 
 ## Topic Labeling Datasets
 
+### Taxonomy Dataset
+To ensure extensive coverage across a wide range of scientific domains, a second dataset was developed based on Elsevier’s Digital Commons Three-Tiered Taxonomy of Academic Disciplines. This taxonomy provides a hierarchical classification of academic knowledge, spanning broad disciplines, intermediate subdisciplines, and specialized research fields.
 
+The present study utilizes the third level of the taxonomy, which contains 913 fine-grained research fields (e.g., Physical Sciences and Mathematics → Computer Sciences → Software Engineering). For each field, topic keyword–label pairs were generated using Gemini, employing the same controlled prompting framework adopted in the expert validation experiment. This approach ensures consistency in structure, semantic specificity, and correspondence with realistic topic modeling outputs.
 
-
+During dataset creation, two research fields, including Holocaust and Genocide Studies, were omitted because the model declined to produce outputs due to built-in ethical constraints. Consequently, the final dataset encompasses 911 research fields. Seven topic keyword–label pairs were generated for each field, resulting in a total of 6,377 pairs.
 
 
 ## Trend Prediction Datasets
@@ -15,7 +18,6 @@ Two datasets are constructed following the same data collection and preprocessin
 Each dataset is constructed using a keyword-driven retrieval strategy, where representative keywords are defined for each domain to capture both foundational topics and emerging research directions. This ensures broad and balanced coverage of the targeted fields. Data collection is performed using the OpenAlex API.
 
 To ensure data quality and consistency, filtering and normalization steps are applied. Only open-access journal articles and conference papers with both titles and abstracts are retained, and keyword relevance is enforced through matching in the title or abstract. Duplicate records are removed using DOI filtering, and publication dates and venue names are standardized. The final datasets include key metadata such as DOI, title, abstract, authors, venue, and publication date to support subsequent analysis.
-
 
 ### "Wireless Networks and Mobile Computing" (main dataset): 
 136,047 papers collected from 2010 to 2025 using 11 domain-specific keywords present in either the title or the abstract (wireless networks, WiFi, 5G, ad hoc networks, mobile computing, ubiquitous computing, edge computing, Internet of Things, smart devices, sensor networks).
