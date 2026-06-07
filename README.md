@@ -1,8 +1,14 @@
 # ScientificDatasets
 This repo is used to share the datasets' csv files associated with our Research paper "Towards Fully Automated Trend Prediction from Scientific Literature"." The datasets are "Wireless Networks and Mobile Computing" and "Software Engineering".
 
+## Topic Labeling Datasets
 
-## Trend Prdiction Datasets
+
+
+
+
+
+## Trend Prediction Datasets
 
 Two datasets are constructed following the same data collection and preprocessing strategy, differing only in the domain-specific keywords used for retrieval. The first dataset targets the "Wireless Networks and Mobile Computing (WNMC)" domain and serves as the primary dataset to evaluate the proposed trend prediction framework. The second dataset focuses on "Software Engineering (SE)" and is used for cross-domain validation to assess the framework's generalization ability. 
 
