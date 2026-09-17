@@ -24,10 +24,11 @@ Each dataset is constructed using a keyword-driven retrieval strategy, where rep
 
 To ensure data quality and consistency, filtering and normalization steps are applied. Only open-access journal articles and conference papers with both titles and abstracts are retained, and keyword relevance is enforced through matching in the title or abstract. Duplicate records are removed using DOI filtering, and publication dates and venue names are standardized. The final datasets include key metadata such as DOI, title, abstract, authors, venue, and publication date to support subsequent analysis.
 
-### 1) "Wireless Networks and Mobile Computing" (main dataset): 
-136,047 papers collected from 2010 to 2025 using 11 domain-specific keywords present in either the title or the abstract (wireless networks, WiFi, 5G, ad hoc networks, mobile computing, ubiquitous computing, edge computing, Internet of Things, smart devices, sensor networks). 
-Link to download this large Dataset: [Wireless Networks and Mobile Computing Dataset](https://drive.google.com/file/d/1CJ5uvTjKqK2y8nJayiwag58dLPNv-ujv/view?usp=sharing) 
+### 1) "Wireless Networks and Mobile Computing": 
+268,095 papers were collected from 2010 to 2025 using 10 domain-specific keywords present in either the title or the abstract (“mobile computing”, “WiFi”, “5G”, “6G”, “Internet of Things”, “Edge Computing”, “Wireless Sensor Networks”, “Vehicular Networks”, “Software Defined Networking”, and “Network Function Virtualization”). 
+Link to download this large Dataset: [Wireless Networks and Mobile Computing Dataset](https://drive.google.com/file/d/1apZ4PrpYcyUvmTfWTpP4G5D6YWxff9eo/view?usp=sharing) 
     
-### 2) Software Engineering (validation dataset):
-449,931 papers collected from 2010 to 2025 using 11 software engineering-related keywords present in the title or abstract (software engineering, software development, software design, software architecture, software testing, software maintenance, software verification, software validation, agile software development, DevOps, and software refactoring).
-Link to download this large Dataset: [Software Engineering Dataset](https://drive.google.com/file/d/1uPFI74JYkC_qi8KvYt0zdLCLzJkAgyIj/view?usp=sharing) 
+### 2) Software Engineering:
+24,863 papers were collected from 2010 to 2025 using software engineering-related keywords present in the title or abstract (including:  “software engineering", “software development", “software design", “software architecture", “software testing", “requirements engineering", “code review", “automated program repair", “mining software repositories", “DevOps", “microservices", “technical
+debt’, “static analysis", and related topics).
+Link to download this large Dataset: [Software Engineering Dataset](https://drive.google.com/file/d/1mkJL3Je85xeGCD4mgUnaNhQWgQq1UOhP/view?usp=sharing) 
